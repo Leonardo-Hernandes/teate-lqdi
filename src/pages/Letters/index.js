@@ -22,7 +22,7 @@ function Letters() {
         return (
             <>
                 <div style={{ padding: "3rem" }}>
-                    <img src={image} />
+                    <img className='img' src={image} />
                     <Typography className='lettersTitle'>
                         {title}
                     </Typography>
@@ -44,7 +44,7 @@ function Letters() {
     const Icon = ({image}) => {
         return (
             <div className='icon'>
-                <img src={image}/>
+                <img className='img'src={image}/>
             </div>
         )
     }

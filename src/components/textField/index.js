@@ -3,7 +3,7 @@ import * as React from 'react';
 import { alpha, styled } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
 
-const BootstrapInput = styled(InputBase)(({ theme }) => ({
+const CustomInput = styled(InputBase)(({ theme }) => ({
     'label + &': {
         marginTop: theme.spacing(3),
     },
@@ -30,10 +30,11 @@ const BootstrapInput = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-function TextField() {
-    return <BootstrapInput
+function TextField({}) {
+    return <CustomInput
         id="bootstrap-input"
         placeholder='Escreva aqui o seu e-mail'
+        fullWidth
     />
 }
 

@@ -1,0 +1,38 @@
+.lettersFormTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #000 !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.lettersFormSubTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.formBox {
+    width: 100%;
+}
+
+.formTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #000 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.formButton {
+    border-radius: 40px !important;
+    background-color: #0AB2B7 !important;
+    width: 120px;
+    height: 42px;
+    margin-top: 2rem;
+}

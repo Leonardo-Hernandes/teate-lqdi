@@ -36,11 +36,11 @@ function Home() {
                     <Grid item xs={7}>
                         <Grid container>
                             <Grid item xs={6}>
-                                <img src={Phone} />
-                                <img src={Buildings} />
+                                <img className='img' src={Phone} />
+                                <img className='img' src={Buildings} />
                             </Grid>
                             <Grid item xs={6}>
-                                <img src={Meeting} />
+                                <img className='img' src={Meeting} />
 
                             </Grid>
                         </Grid>
