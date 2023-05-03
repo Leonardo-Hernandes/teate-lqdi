@@ -1,0 +1,57 @@
+.lettersTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #000 !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.lettersSubTitle {
+    font-family: 'Satoshi' !important;
+    color: #000 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.receiveBox {
+    margin: 2rem;
+    background-color: #000;
+    border-radius: 45px;
+    height: 90%;
+}
+
+.receiveBoxTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #fff !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.receiveBoxSubTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.textField {
+    border-color: #fff!important;
+    border-width: 2px!important;
+}
+
+.icon {
+    background-color: #fff;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 0.8rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
