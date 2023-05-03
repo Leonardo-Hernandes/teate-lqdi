@@ -1,7 +1,8 @@
 import * as React from 'react';
 
-import { alpha, styled } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
+import { useRegistrationForm } from '../useRegistrationForm';
 
 const CustomInput = styled(InputBase)(({ theme }) => ({
     'label + &': {
@@ -47,7 +48,13 @@ const CustomMultlineInput = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-function FormTextField({ rows }) {
+function FormTextField({
+    rows,
+    value,
+    id,
+    type
+}) {
+    const formik = useRegistrationForm();
 
     return rows ? <CustomMultlineInput
         id="form-input"
@@ -55,7 +62,17 @@ function FormTextField({ rows }) {
         multiline
         rows={rows}
     /> : <CustomInput
-        id="form-input"
+        id="name"
+        label="Nome"
+        type="name"
+        onChange={formik.handleChange}
+        onBlur={formik.handleBlur}
+        value={formik.values.name}
+        // id={id}
+        // type={type}
+        // value={value}
+        // onChange={formik.handleChange}
+        // onBlur={formik.handleBlur}
         fullWidth
     />
 }
