@@ -1,0 +1,22 @@
+.AppBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-top: 1.8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.alignContent {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.button {
+    border-radius: 40px!important;
+    background-color: #000!important;
+}

@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.backgroundTheme {
+  height: 100vh;
+  background: #F1F4F9;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

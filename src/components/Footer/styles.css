@@ -1,0 +1,16 @@
+.footerAlign {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.title {
+    font-weight: 700;
+    color: #fff;
+}
+
+.subTitle {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
