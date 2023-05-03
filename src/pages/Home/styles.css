@@ -16,7 +16,25 @@
     align-items: center;
 }
 
-.button {
-    border-radius: 40px!important;
-    background-color: #000!important;
+.homeButton {
+    border-radius: 40px !important;
+    background-color: #0AB2B7 !important;
+    width: 150px;
+    height: 52px;
+    margin-top: 2rem;
+}
+
+.homeTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #000 !important;
+    font-size: 36px !important;
+    font-weight: 600 !important;
+}
+
+.homeSubTitle {
+    font-family: 'Plus Jakarta Sans' !important;
+    color: #000 !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    margin-top: 2rem;
 }

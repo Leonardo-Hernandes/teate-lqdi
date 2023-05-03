@@ -26,7 +26,7 @@ function Footer() {
                     </Typography>
 
                     <Typography
-                        style={{ fontFamily: 'Satoshi-Light', marginTop: '1.4rem'}}
+                        style={{ fontFamily: 'Satoshi-Light', marginTop: '1.4rem' }}
                         className='subTitle'
                     >
                         {phone}

@@ -1,0 +1,10 @@
+.alignContent {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.button {
+    border-radius: 40px!important;
+    background-color: #000!important;
+}

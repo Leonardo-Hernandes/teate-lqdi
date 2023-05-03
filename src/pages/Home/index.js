@@ -1,5 +1,10 @@
 import './styles.css';
-import LqdiLogo from '../../assets/logo-lqdi-positivo.svg';
+
+import Phone from '../../assets/images/phone.png';
+import Buildings from '../../assets/images/buildings.png';
+import Meeting from '../../assets/images/meeting.png';
+import AppBar from '../../components/AppBar';
+
 
 import {
     Button,
@@ -12,25 +17,37 @@ function Home() {
 
     return (
         <Container maxWidth="xl">
-            <Grid container className='AppBar'>
-                <Grid item xs={6} className='logo'>
-                    <img src={LqdiLogo} alt="LQDI base logo" />
-                </Grid>
-                <Grid item xs={6}>
-                    <Grid container>
-                        <Grid item xs={8} className='alignContent'>
-                            <Typography>
-                                Agende uma reunião conosco
-                            </Typography>
+            <AppBar/>
+            <div style={{ marginTop: "5rem" }}>
+                <Grid container>
+                    <Grid item xs={5}>
+                        <Typography className='homeTitle'>
+                            Construímos estratégias, design e tecnologia de ponta para o seu negócio
+                        </Typography>
+                        <Typography className='homeSubTitle'>
+                            Converse com nossa equipe sobre o seu projeto.
+                        </Typography>
+                        <Button variant="contained" className='homeButton'>
+                            Começar
+                        </Button>
+                        {/* <img src={Phone} /> */}
+                    </Grid>
+
+                    <Grid item xs={7}>
+                        <Grid container>
+                            <Grid item xs={6}>
+                                <img src={Phone} />
+                                <img src={Buildings} />
+                            </Grid>
+                            <Grid item xs={6}>
+                                <img src={Meeting} />
+
+                            </Grid>
                         </Grid>
-                        <Grid item xs={2} className='alignContent'>
-                            <Button variant="contained" className='button'>
-                                Começar
-                            </Button>
-                        </Grid>
+
                     </Grid>
                 </Grid>
-            </Grid>
+            </div>
 
         </Container>
     )
